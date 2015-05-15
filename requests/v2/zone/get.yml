@@ -1,0 +1,5 @@
+method: GET
+uri: /v2/zones/{{zone_id, last.response.body.id}}
+headers:
+    Content-type: application/json
+    Accept: application/json

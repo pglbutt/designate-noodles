@@ -1,0 +1,14 @@
+method: PATCH
+uri: /v2/pools/794ccc2c-d751-44fe-b57f-8894c9f5c842
+headers:
+    Content-type: application/json
+    Accept: application/json
+body: |
+    {
+        "ns_records": [
+            {
+                "hostname": "{{hostname, nameserver}}",
+                "priority": 1
+            }
+        ]
+    }

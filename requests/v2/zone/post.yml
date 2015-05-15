@@ -1,0 +1,11 @@
+method: POST
+uri: /v2/zones
+headers:
+    Content-type: application/json
+    Accept: application/json
+body: |
+    {
+        "name": "{{zone_name}}",
+        "email": "spag@pglbutt.com",
+        "ttl": 3600
+    }

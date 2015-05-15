@@ -1,0 +1,5 @@
+method: GET
+uri: /v2/pools
+headers:
+    Content-type: application/json
+    Accept: application/json
