@@ -1,0 +1,13 @@
+method: POST
+uri: /v2/zones/{{ zone_id, [].zone_id }}/recordsets
+headers:
+    Content-type: application/json
+    Accept: application/json
+body: |
+    {
+        "name": "{{ name }}",
+        "type": "{{ type }}",
+        "records": [ "{{ data }}" ],
+        "description": "{{ description : A recordset posted with spag }}",
+        "ttl": {{ ttl : 3600 }}
+    }

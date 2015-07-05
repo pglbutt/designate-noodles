@@ -5,7 +5,7 @@ headers:
     Accept: application/json
 body: |
     {
-        "name": "{{zone_name}}",
-        "email": "spag@pglbutt.com",
+        "name": "{{name}}",
+        "email": "{{email : spag@pglbutt.com }}",
         "ttl": 3600
     }

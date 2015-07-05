@@ -1,5 +1,5 @@
 method: GET
-uri: /v2/pools/{{pool_id, id, last.response.body.id}}
+uri: /v2/pools/{{pool_id, id, last.response.body.id : 794ccc2c-d751-44fe-b57f-8894c9f5c842 }}
 headers:
     Content-type: application/json
     Accept: application/json
